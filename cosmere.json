@@ -5,7 +5,7 @@
   "pages": [
     {
       "pageId": "360554",
-      "file": "pages/README.md",
+      "file": "README.md",
       "title": "Sync Markdown files with Confluence"
     },
     {
