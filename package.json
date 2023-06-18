@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/UlisesGascon/poc-sync-markdown-with-confluence/issues"
   },
-  "homepage": "https://github.com/UlisesGascon/poc-sync-markdown-with-confluence#readme"
+  "homepage": "https://github.com/UlisesGascon/poc-sync-markdown-with-confluence#readme",
+  "dependencies": {
+    "cosmere": "0.17.2"
+  }
 }
