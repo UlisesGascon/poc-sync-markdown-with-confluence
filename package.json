@@ -7,7 +7,7 @@
   "scripts": {
     "publish": "cosmere",
     "lint": "markdownlint pages/**/*.md",
-    "lint:fix": "markdownlint --fix pages/**/*.md"
+    "lint:fix": "markdownlint --fix pages/**/*.md && markdownlint --fix README.md --disable MD013"
   },
   "repository": {
     "type": "git",
