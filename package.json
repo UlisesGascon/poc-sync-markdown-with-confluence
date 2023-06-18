@@ -1,0 +1,26 @@
+{
+  "name": "poc-sync-markdown-with-confluence",
+  "version": "1.0.0",
+  "description": "Proof of concept project aimed at enabling the automatic synchronization of Markdown files with Confluence",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "publish": "cosmere",
+    "lint": "markdownlint pages/**/*.md",
+    "lint:fix": "markdownlint --fix pages/**/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/poc-sync-markdown-with-confluence.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/poc-sync-markdown-with-confluence/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/poc-sync-markdown-with-confluence#readme",
+  "dependencies": {
+    "cosmere": "0.17.2",
+    "markdownlint-cli": "0.35.0"
+  }
+}
