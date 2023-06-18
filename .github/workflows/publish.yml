@@ -1,0 +1,29 @@
+on:
+    push:
+      branches:
+      - main
+
+name: Sync Confluence
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18.16.0'
+          cache: 'npm'
+  
+      - name: Install dependencies
+        run: npm ci
+  
+      - name: Lint
+        run: npm run lint
+
+      - name: Publish
+        run: npm run publish
+        env:
+          CI: true
+          CONFLUENCE_USERNAME: ${{ secrets.CONFLUENCE_USERNAME }}
+          CONFLUENCE_PASSWORD: ${{ secrets.CONFLUENCE_PASSWORD }}
