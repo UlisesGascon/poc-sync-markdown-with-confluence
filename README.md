@@ -10,10 +10,6 @@ This POC explores the possibility of syncing markdown files stored in a version 
 
 There are several benefits to synchronizing markdown files with Confluence. First and foremost, it allows teams to leverage the simplicity and flexibility of markdown for content creation. Markdown is easy to learn and write, making it accessible to everyone on the team. Additionally, since markdown files are plain text, they can be easily versioned, compared, and merged using Git or any other version control system.
 
-### 📺 Tutorial
-
-[![Youtube Banner](.github/img/banner.png)](https://www.youtube.com/watch?v=5o1GRFdKUCE)
-
 ### More information
 
 This project POC uses the following tools:
@@ -30,7 +26,7 @@ This project POC uses the following tools:
 
 ## 📺 Tutorial
 
-soon
+[![Youtube Banner](.github/img/banner.png)](https://www.youtube.com/watch?v=5o1GRFdKUCE)
 
 ## 📡 Usage
 
